@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+#header {
+  margin-top: 0.5em;
+}
+
+#calculator {
+  border: 1px solid black;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+}
+#display-cont {
+  flex: 2;
+  padding: 1em;
+  font-size: 3em;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+#btn-cont {
+  display: flex;
+  flex-direction: column;
+}
+#btn-cont > .row {
+  display: flex;
+}
+#btn-cont > .row > * {
+  flex: 1;
+}
+button {
+  font-size: 3em;
+}
+#clear {
+  font-size: 2em;
+}
