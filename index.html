@@ -11,34 +11,39 @@
     <script src="index.js" defer></script>
     <h1 id="header">Calculator</h1>
     <div id="calculator">
-      <div class="container" id="clear-cont">
-        <button id="clear">clear</button>
+      <div class="container" id="display-cont">
+        <div class="container" id="operation-cont">0</div>
+        <div class="container" id="result-cont"></div>
       </div>
-      <div class="container" id="display-cont">0</div>
       <div class="container" id="btn-cont">
-        <div class="row">
-          <button class="digit" id="1">1</button>
-          <button class="digit" id="2">2</button>
-          <button class="digit" id="3">3</button>
-          <button class="operator" id="add">+</button>
-        </div>
-        <div class="row">
-          <button class="digit" id="4">4</button>
-          <button class="digit" id="5">5</button>
-          <button class="digit" id="6">6</button>
-          <button class="operator" id="subtract">-</button>
-        </div>
-        <div class="row">
+        <div class="column">
+          <button class="calcFunction" id="clear">AC</button>
           <button class="digit" id="7">7</button>
-          <button class="digit" id="8">8</button>
-          <button class="digit" id="9">9</button>
-          <button class="operator" id="multiply">*</button>
+          <button class="digit" id="4">4</button>
+          <button class="digit" id="1">1</button>
+          <button class="sign" id="sign">+/-</button>
         </div>
-        <div class="row">
-          <button class="operator" id="equals">=</button>
+
+        <div class="column">
+          <button class="calcFunction" id="backspace"><-</button>
+          <button class="digit" id="8">8</button>
+          <button class="digit" id="5">5</button>
+          <button class="digit" id="2">2</button>
           <button class="digit" id="0">0</button>
-          <button class="digit" id=".">.</button>
-          <button class="operator" id="divide">/</button>
+        </div>
+        <div class="column">
+          <button class="operator" id="%">%</button>
+          <button class="digit" id="9">9</button>
+          <button class="digit" id="6">6</button>
+          <button class="digit" id="3">3</button>
+          <button class="dot" id=".">.</button>
+        </div>
+        <div class="column">
+          <button class="operator" id="/">/</button>
+          <button class="operator" id="*">*</button>
+          <button class="operator" id="-">-</button>
+          <button class="operator" id="+">+</button>
+          <button class="calcFunction" id="=">=</button>
         </div>
       </div>
     </div>
