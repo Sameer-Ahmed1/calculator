@@ -1,34 +1,23 @@
 # calculator
 
-Open console to view the operations and the operators before the result
+Made for @TheOdinProject
 
-# Feautres Implemented : 
+# Feautres Implemented :
 
--All four operations 
+-All four operations
 
--Any number of operators 
+-Any number of operators
 
 -Floating Point support
 
 -Clear Button
 
-# Feautres to be Implemented : 
+-Display all operands and operators
 
--Display all operands and operators 
+-Prohibit two dots in the same number
 
--Prohibit two dots in the same number 
-
--Round Answers 
+-Round Answers
 
 -Error handling (eg. pressing '=' before entering all numbers, divide by zero )
 
-
-#Cool Feautres : 
-
--Add Backspace button 
-
--More CSS
-
--KeyBoard support
-
-
+-Backspace button
