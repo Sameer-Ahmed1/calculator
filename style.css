@@ -18,25 +18,35 @@ body {
   flex-direction: column;
 }
 #display-cont {
-  flex: 2;
+  flex: 1;
   padding: 1em;
-  font-size: 3em;
+  font-size: 2em;
   overflow-wrap: break-word;
   text-align: center;
 }
 #btn-cont {
   display: flex;
-  flex-direction: column;
 }
-#btn-cont > .row {
+#btn-cont > .column {
   display: flex;
+  flex-direction: column;
+  flex: 1;
 }
-#btn-cont > .row > * {
+#btn-cont > .column > * {
   flex: 1;
 }
 button {
   font-size: 3em;
+  background-color: 36454f;
+  color: black;
 }
-#clear {
+button.operator,
+button.calcFunction,
+button.sign {
+  color: brown;
+}
+
+#clear,
+#erase {
   font-size: 2em;
 }
