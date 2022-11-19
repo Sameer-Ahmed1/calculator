@@ -1,7 +1,7 @@
 # calculator
 
 Made for @TheOdinProject
-
+live demo : https://sameer-ahmed1.github.io/calculator/
 # Feautres Implemented :
 
 -All four operations
